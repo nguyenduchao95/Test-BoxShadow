@@ -1,0 +1,15 @@
+.header{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: white;
+  margin: 20px 0;
+  padding: 20px 0;
+
+  .header-item {
+    cursor: pointer;
+    &:hover{
+      color: #404da0;
+    }
+  }
+}
